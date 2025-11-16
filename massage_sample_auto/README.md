@@ -16,8 +16,11 @@
 ・正規表現によるメール抽出（htmlは今回固定値）
 ・DR代替スコア：仮値（本番は被リンク数・類似指標で算出可能）
 
-📃スクリプト説明：scraping_massage_sample.py
+📃scraping_massage_sample.py
 このスクリプトは、マッサージ店5件の情報をPythonの辞書データとして保持し、CSVに出力するものです。
+
+📃massage_sample_auto.csv
+このCSVはスクリプト実行で自動生成しており、マッサージ店5件をAPIから取得したサンプルです。
 
 実案件では、
 ・BeautifulSoup
